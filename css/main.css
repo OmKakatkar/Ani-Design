@@ -5,5 +5,8 @@
 /* Variables */
 @import url(utils/variables.css);
 
+/* Components */
+@import url(components/button.css);
+
 /* Utility Classes */
 @import url(utils/utilities.css);
