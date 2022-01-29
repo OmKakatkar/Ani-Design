@@ -2,14 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.flex-column-container {
+.flex-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.center-text {
+.text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.line-md {
+    width: 50%;
+}
+
+.line-sm {
+    width: 25%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
