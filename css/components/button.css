@@ -46,7 +46,7 @@
 }
 
 .bd-blue {
-    font-weight: 600;
+    font-weight: bold;
     border-color: var(--primary-blue);
     background-color: var(--white);
     color: var(--primary-blue);
@@ -109,4 +109,15 @@
 
 .btn.capsule {
     border-radius: 100px;
+}
+
+.btn.float {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.btn.icon {
+    font-size: 2rem;
+    padding: 0.4em 0.6em;
 }
