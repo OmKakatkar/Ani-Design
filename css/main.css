@@ -2,7 +2,11 @@
 @import url(base/reset.css);
 @import url(base/typography.css);
 
-/* Components */
+/* Variables */
+@import url(utils/variables.css);
 
-/* Utilities */
+/* Components */
+@import url(components/button.css);
+
+/* Utility Classes */
 @import url(utils/utilities.css);
