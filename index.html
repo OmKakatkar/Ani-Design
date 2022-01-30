@@ -6,49 +6,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Component Library</title>
         <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
     </head>
     <body>
-        <section class="container">
+        <div class="container">
             <!-- TODO: Add all components here as article tags -->
             <h1 class="text-center">Components</h1>
             <hr class="line-md center" />
             <h2>Buttons</h2>
             <hr class="line-sm" />
-            <article>
+            <section>
                 <h3>Shapes</h3>
-                <section class="container flex-container">
+                <div class="container flex-container">
                     <button class="btn">Sharp Edge</button>
                     <button class="btn rounded-slight">Slight Round</button>
                     <button class="btn rounded">Rounded Edges</button>
                     <button class="btn capsule">Capsule</button>
-                </section>
+                </div>
                 <h3>Filled</h3>
-                <section class="container flex-container">
+                <div class="container flex-container">
                     <button class="btn bg-blue">Sharp Edge</button>
                     <button class="btn bg-green">Sharp Edge</button>
                     <button class="btn bg-red">Sharp Edge</button>
                     <button class="btn bg-purple">Sharp Edge</button>
-                </section>
+                </div>
                 <h3>Border Only</h3>
-                <section class="container flex-container">
-					<button class="btn bd-blue">Sharp Edge</button>
-					<button class="btn bd-green">Sharp Edge</button>
-					<button class="btn bd-red">Sharp Edge</button>
-					<button class="btn bd-purple">Sharp Edge</button>
-				</section>
+                <div class="container flex-container">
+                    <button class="btn bd-blue">Sharp Edge</button>
+                    <button class="btn bd-green">Sharp Edge</button>
+                    <button class="btn bd-red">Sharp Edge</button>
+                    <button class="btn bd-purple">Sharp Edge</button>
+                </div>
                 <h3>Disabled</h3>
-                <section class="container flex-container">
+                <div class="container flex-container">
                     <button class="btn" disabled>Sharp Edge</button>
-                </section>
-				</section>
+                </div>
                 <h3>Icon button</h3>
-                <section class="container flex-container">
-                    <button class="btn icon bg-blue rounded"><i class="far fa-envelope icon"></i></button>
-                    <button class="btn icon bg-blue rounded"><i class="fas fa-home"></i></button>
-                    <button class="btn icon bg-blue rounded"><i class="fas fa-bars"></i></button>
-                </section>
-            </article>
-        </section>
+                <div class="container flex-container">
+                    <button class="btn icon bg-blue rounded">
+                        <i class="far fa-envelope icon"></i>
+                    </button>
+                    <button class="btn icon bg-blue rounded">
+                        <i class="fas fa-home"></i>
+                    </button>
+                    <button class="btn icon bg-blue rounded">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </section>
+            <h2>Cards</h2>
+            <hr class="line-sm" />
+            <div class="container flex-container">
+                <section>
+                    <article class="card shadow rounded">
+                        <div>
+                            <img
+                            src="./assets/card-image.jpg"
+                            alt="Girl looking at Hot Air balloons"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <h3>Catchy Caption</h3>
+                            <h5 class="text-gray">by Author Name</h5>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quasi officiis repudiandae in aspernatur vel
+                            ducimus.
+                        </p>
+                        <div class="card-links">
+                            <a href="#">read more</a>
+                            <div>
+                                <button>
+                                    <i class="far fa-heart icon"></i>
+                                </button>
+                                <button>
+                                    <i class="far fa-bookmark icon"></i>
+                                </button>
+                                <button>
+                                    <i class="fas fa-share-alt icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            </section>
+        </div>
     </body>
 </html>

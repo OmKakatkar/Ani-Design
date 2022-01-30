@@ -1,0 +1,40 @@
+.card {
+    width: 30rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.card.shadow {
+    box-shadow: var(--shadow);
+}
+
+.card.rounded {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-body p {
+    margin: 2rem 0;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.card-links .icon {
+    font-size: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+.card-links .icon:hover {
+    color: var(--primary-red);
+    cursor: pointer;
+}
