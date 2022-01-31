@@ -55,3 +55,11 @@
     background-color: var(--warning);
     border: 2px solid var(--white);
 }
+
+.avatar.square > img{
+    border-radius: 0;
+}
+
+.avatar.rounded > img {
+    border-radius: 10px;
+}
