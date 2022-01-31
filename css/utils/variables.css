@@ -9,10 +9,10 @@
     --light-blue: #60a5fa;
     --light-purple: #a78bfa;
 
-    --faint-red: #fecaca;
+    /* --faint-red: #fecaca;
     --faint-green: #a7f3d0;
     --faint-blue: #bfdbfe;
-    --faint-purple: #ddd6fe;
+    --faint-purple: #ddd6fe; */
 
     --white: #ffffff;
     --gray: #d1d5db;
@@ -20,5 +20,7 @@
 
     --dark-background: #1f2937;
 
+    --yellow: #fbbf24;
+  
     --shadow: 0 3px 5px 2px #1f2937;
 }
