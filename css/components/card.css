@@ -38,3 +38,26 @@
     color: var(--primary-red);
     cursor: pointer;
 }
+
+.card .tag {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 5rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    outline: none;
+    cursor: inherit;
+    background-color: var(--primary-green);
+    margin-bottom: 1rem;
+}
+
+.card .user-info {
+    display: flex;
+}
+
+.card .avatar {
+    margin: 0 1rem 0 0;
+    width: 5rem;
+    height: 5rem;
+}
