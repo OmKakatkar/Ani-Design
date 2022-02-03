@@ -39,3 +39,7 @@
 .text-gray {
     color: var(--dark-gray);
 }
+
+.hidden {
+    display: none;
+}
