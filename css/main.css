@@ -9,6 +9,7 @@
 @import url(components/button.css);
 @import url(components/avatar-badge.css);
 @import url(components/alert.css);
+@import url(components/card.css);
 
 /* Utility Classes */
 @import url(utils/utilities.css);
