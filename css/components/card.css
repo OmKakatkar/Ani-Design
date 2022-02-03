@@ -1,4 +1,5 @@
 .card {
+    position: relative;
     width: 30rem;
     margin: 1rem;
     overflow: hidden;
@@ -43,7 +44,7 @@
     display: inline-block;
     font-size: 1.2rem;
     text-transform: uppercase;
-    border-radius: 5rem;
+    border-radius: 50px;
     color: white;
     padding: 0.5rem 1rem;
     outline: none;
@@ -60,4 +61,45 @@
     margin: 0 1rem 0 0;
     width: 5rem;
     height: 5rem;
+}
+
+.card small {
+    color: var(--dark-gray);
+    font-size: 1.4rem;
+}
+
+.card .btn {
+    width: 100%;
+    margin: 0.5rem auto 0;
+}
+
+.card .price {
+    margin-bottom: 1rem;
+}
+
+.price .discount-price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price .original-price {
+    font-size: 1.6rem;
+    text-decoration: line-through;
+}
+
+.price .offer {
+    font-size: 1.6rem;
+    color: var(--dark-green);
+    font-weight: bold;
+}
+
+.card .badge {
+    position: absolute;
+    background-color: var(--yellow);
+    padding: 0.5rem 1rem;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    color: var(--white);
+    width: 10rem;
+    top: -2px;
+    left: -2px;
 }
