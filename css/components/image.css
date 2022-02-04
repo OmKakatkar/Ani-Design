@@ -1,0 +1,31 @@
+.image img {
+    min-width: 100%;
+    min-height: auto;
+    aspect-ratio: 1;
+    image-rendering: pixelated;
+}
+
+.circular img{
+    border-radius: 50%;
+}
+
+.image.xsm {
+    width: 50px;
+}
+.image.sm {
+    width: 100px;
+}
+.image {
+    width: 200px;
+}
+.image.lg {
+    width: 300px;
+}
+.image.xlg {
+    width: 400px;
+}
+
+.fluid-img {
+    resize: horizontal;
+    overflow: auto;
+}
