@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Component Library</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- Input -->
+        <div class="container">
+            <h3>Text Input</h3>
+            <div class="input-container" data-error="Invalid email">
+                <label for="email"> Email </label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="email@xyz.com"
+                    class="input error"
+                />
+            </div>
+            <div class="input-container">
+                <label for="password"> Password </label>
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="input"
+                />
+            </div>
+            <div
+                class="input-container"
+                data-success="Username Available"
+                data-error="Invalid email"
+            >
+                <label for="username"> Username </label>
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    class="input success"
+                    placeholder="sparky-spinner"
+                />
+            </div>
+
+            <!-- Checkbox -->
+            <div class="input-container">
+                <h3>Check Box</h3>
+                <label for="chk-button1" class="checkbox">
+                    <input
+                        type="checkbox"
+                        name="checked"
+                        id="chk-button1"
+                        class="checkbox-input"
+                        checked
+                    />
+                    <div class="checkbox-icon"></div>
+                    Checked
+                </label>
+                <label for="chk-button1" class="checkbox">
+                    <input
+                        type="checkbox"
+                        name="checked"
+                        id="chk-button1"
+                        class="checkbox-input"
+                    />
+                    <div class="checkbox-icon"></div>
+                    Unchecked
+                </label>
+                <label for="chk-button1" class="checkbox disabled">
+                    <input
+                        type="checkbox"
+                        name="checked"
+                        id="chk-button1"
+                        class="checkbox-input"
+                        disabled
+                    />
+                    <div class="checkbox-icon"></div>
+                    Disabled
+                </label>
+                <label for="chk-button4" class="checkbox disabled">
+                    <input
+                        type="checkbox"
+                        name="checked"
+                        id="chk-button4"
+                        class="checkbox-input"
+                        checked
+                        disabled
+                    />
+                    <div class="checkbox-icon"></div>
+                    Checked & Disabled
+                </label>
+            </div>
+
+            <!-- Radio -->
+            <div class="input-container">
+                <h3>Radio Button</h3>
+                <label for="rd-button1" class="radio">
+                    <input
+                        type="radio"
+                        name="selected"
+                        id="rd-button1"
+                        class="radio-input"
+                        checked
+                    />
+                    <div class="radio-icon"></div>
+                    Selected
+                </label>
+                <label for="rd-button2" class="radio">
+                    <input
+                        type="radio"
+                        name="unselected"
+                        id="rd-button2"
+                        class="radio-input"
+                    />
+                    <div class="radio-icon"></div>
+                    Unselected
+                </label>
+                <label for="rd-button3" class="radio disabled">
+                    <input
+                        type="radio"
+                        name="disabled"
+                        id="rd-button3"
+                        class="radio-input"
+                        disabled
+                    />
+                    <div class="radio-icon"></div>
+                    Disabled
+                </label>
+                <label for="rd-button4" class="radio disabled">
+                    <input
+                        type="radio"
+                        name="selected-disabled"
+                        id="rd-button4"
+                        class="radio-input"
+                        checked
+                        disabled
+                    />
+                    <div class="radio-icon"></div>
+                    Checked & Disabled
+                </label>
+            </div>
+
+            <!-- Text Area -->
+            <div class="input-container">
+                <h3>Text Area</h3>
+                <label for="message">Message</label>
+                <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="input"
+                ></textarea>
+            </div>
+        </div>
+    </body>
+</html>
