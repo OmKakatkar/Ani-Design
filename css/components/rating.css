@@ -1,0 +1,39 @@
+.rating-container {
+    display: block;
+    text-align: center;
+    direction: rtl;
+    --icon-star-empty: '\2606';
+    --icon-star-full: '\2605';
+}
+
+.rating {
+    font-size: var(--fs-h1);
+    width: 1em;
+    height: 1em;
+    line-height: var(--fs-h1);
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    opacity: 1;
+    appearance: none;
+}
+
+.rating::after {
+    content: var(--icon-star-empty);
+    width: 100%;
+    color: var(--yellow);
+    text-align: center;
+}
+
+.rating:hover::after,
+.rating:hover ~ .rating::after,
+.rating:checked::after,
+.rating:checked ~ .rating::after {
+    content: var(--icon-star-full);
+}
+
+.rating:focus-visible {
+    border-radius: 0;
+    outline: 2px solid var(--black);
+}
