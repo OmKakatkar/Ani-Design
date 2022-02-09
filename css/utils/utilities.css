@@ -16,6 +16,10 @@
     flex-direction: column;
 }
 
+.flex {
+    display: flex;
+}
+
 /* Horizontal line (hr) */
 .line-md {
     width: 50%;
@@ -80,4 +84,13 @@
 
 .text-purple {
     color: var(--primary-purple);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark-gray);
 }

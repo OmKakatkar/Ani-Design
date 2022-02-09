@@ -40,4 +40,6 @@
     --fw-regular: 400;
     --fw-semibold: 500;
     --fw-bold: 700;
+
+    --gray-shadow: 0 2px 5px 0px #323232a1;
 }
