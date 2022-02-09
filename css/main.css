@@ -13,6 +13,7 @@
 @import url(components/image.css);
 @import url(components/input.css);
 @import url(components/rating.css);
+@import url(components/navigation.css);
 
 /* Utility Classes */
 @import url(utils/utilities.css);
