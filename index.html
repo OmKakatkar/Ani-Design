@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ani-Design</title>
-        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./docs/css/docs.css" />
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -20,30 +21,64 @@
         />
     </head>
     <body>
+        <!-- Page Header -->
         <header>
-            <nav>
-                <a href="index.html">
+            <nav class="nav">
+                <div class="brand">
                     <div class="image sm">
-                        <img src="./assets/logo.svg" alt="" />
+                        <img src="../assets/logo.svg" alt="" />
                     </div>
-                </a>
-                <a href="#">twitter</a>
-                <a href="#">github</a>
+                    <a href="../index.html" class="brand-name">Ani Design</a>
+                </div>
+                <ul class="nav-link-container">
+                    <li class="nav-link">
+                        <a href="https://twitter.com/omkakatkar"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.linkedin.com/in/omkakatkar/"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://github.com/OmKakatkar"
+                            ><i class="fab fa-github"></i
+                        ></a>
+                    </li>
+                </ul>
             </nav>
         </header>
-        <h1>ani design</h1>
-        <p>An easy to use component library</p>
-        <a href="#" class="btn bg-blue rounded">Get Started</a>
-        <a href="#" class="btn bd-purple rounded">Documentation</a>
-        <footer></footer>
-        <!-- <a href="./docs/alert.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/avatar.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/badge.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/button.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/card.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/image.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/input.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/rating.html" class="btn bg-green rounded">Alert</a>
-            <a href="./docs/text.html" class="btn bg-green rounded">Alert</a> -->
+
+        <!-- Page Content -->
+        <main class="container flex-container flex-column">
+            <h1>ani design</h1>
+            <p>An easy to use component library</p>
+            <a href="./docs/installation.html" class="btn bg-blue rounded">Get Started</a>
+            <a href="https://github.com/OmKakatkar/Ani-Design" class="btn bd-purple rounded">Documentation</a>
+        </main>
+
+        <!-- Page Footer -->
+        <footer class="footer flex-container flex-column">
+            <p>Made with <i class="fas fa-coffee icon"></i> by Om Kakatkar</p>
+            <ul class="nav-link-container">
+                <li class="nav-link">
+                    <a href="https://twitter.com/omkakatkar"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://www.linkedin.com/in/omkakatkar/"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://github.com/OmKakatkar"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                </li>
+            </ul>
+            <p class="text-xsm">Copyright 2022 &copy; Ani-Design</p>
+        </footer>
     </body>
 </html>

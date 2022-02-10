@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ani-Design</title>
         <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="./css/docs.css" />
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -20,122 +21,93 @@
         />
     </head>
     <body>
-        <div class="container flex-container">
 
-            <!-- Blog Card -->
-            <article class="card shadow rounded">
-                <div>
-                    <img
-                        src="../assets/card-image.jpg"
-                        alt="Girl looking at Hot Air balloons"
-                    />
-                </div>
-                <div class="card-body">
-                    <h3>Catchy Caption</h3>
-                    <h5 class="text-gray">by Author Name</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quasi officiis repudiandae in aspernatur vel ducimus.
-                    </p>
-                    <div class="card-links">
-                        <a href="#">read more</a>
-                        <div>
-                            <button>
-                                <i class="far fa-heart icon"></i>
-                            </button>
-                            <button>
-                                <i class="far fa-bookmark icon"></i>
-                            </button>
-                            <button>
-                                <i class="fas fa-share-alt icon"></i>
-                            </button>
-                        </div>
+        <!-- Page Header -->
+        <header>
+            <nav class="nav">
+                <div class="brand">
+                    <div class="image sm">
+                        <img src="../assets/logo.svg" alt="" />
                     </div>
+                    <a href="../index.html" class="brand-name">Ani Design</a>
                 </div>
-            </article>
+                <ul class="nav-link-container">
+                    <li class="nav-link">
+                        <a href="https://twitter.com/omkakatkar"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://www.linkedin.com/in/omkakatkar/"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="https://github.com/OmKakatkar"
+                            ><i class="fab fa-github"></i
+                        ></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-            <!-- Social Media Card -->
-            <article class="card shadow rounded">
-                <div>
-                    <img
-                        src="../assets/card-image.jpg"
-                        alt="Girl looking at Hot Air balloons"
-                    />
-                </div>
-                <div class="card-body">
-                    <span class="tag">Travel</span>
-                    <h3>Lorem Ipsum</h3>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Pariatur, dolorum!
-                    </p>
-                    <div class="user-info">
-                        <div class="avatar">
-                            <img src="../assets/card-image.jpg" alt="" />
-                        </div>
-                        <div>
-                            <h4>Jane Doe</h4>
-                            <small class="text-gray">2h ago</small>
-                        </div>
-                    </div>
-                </div>
-            </article>
+        <div class="flex">
+            <!-- Site Navigation -->
+            <nav class="aside-nav">
+                <h3 class="nav-heading">Getting Started</h3>
+                <ul>
+                    <li class="nav-link">
+                        <a href="./installation.html">Installation</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./typography.html">Typography</a>
+                    </li>
+                    <li class="nav-link"><a href="./color.html">Color</a></li>
+                </ul>
+                <h3 class="nav-heading">Components</h3>
+                <ul>
+                    <li class="nav-link"><a href="./alert.html">Alert</a></li>
+                    <li class="nav-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="nav-link"><a href="./badge.html">Badge</a></li>
+                    <li class="nav-link"><a href="./button.html">Button</a></li>
+                    <li class="nav-link active"><a href="./card.html">Card</a></li>
+                    <li class="nav-link"><a href="./grid.html">Grid</a></li>
+                    <li class="nav-link"><a href="./image.html">Image</a></li>
+                    <li class="nav-link"><a href="./input.html">Input</a></li>
+                    <li class="nav-link">
+                        <a href="./navigation.html">Navigation</a>
+                    </li>
+                    <li class="nav-link"><a href="./rating.html">Rating</a></li>
+                </ul>
+            </nav>
 
-            <!-- Ecommerce Card w/o badge -->
-            <article class="card rounded">
-                <div class="badge hidden">Best Seller</div>
-                <div>
-                    <img
-                        src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=2&fit=crop&h=200&w=300"
-                        alt="Coffee"
-                    />
-                    <button>
-                        <i class="fas fa-heart icon wishlist"></i>
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h3>Caffè latte</h3>
-                    <p>
-                        Caffè latte is a coffee-based drink made primarily from
-                        espresso and steamed milk.
-                    </p>
-                    <div class="price">
-                        <span class="discount-price">Rs. 199</span>
-                        <span class="original-price">Rs. 219</span>
-                        <span class="offer">10% off</span>
-                    </div>
-                    <button class="btn bg-blue rounded">Add to Cart</button>
-                    <button class="btn rounded" disabled>Go to Cart</button>
-                </div>
-            </article>
-
-            <!-- Ecommerce Card w/ badge -->
-            <article class="card rounded">
-                <div class="badge">Best Seller</div>
-                <div>
-                    <img
-                        src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=2&fit=crop&h=200&w=300"
-                        alt="Coffee"
-                    />
-                </div>
-                <button>
-                    <i class="fas fa-heart icon wishlist"></i>
-                </button>
-                <div class="card-body">
-                    <h3>Caffè latte</h3>
-                    <p>
-                        Caffè latte is a coffee-based drink made primarily from
-                        espresso and steamed milk.
-                    </p>
-                    <div class="price">
-                        <span class="discount-price">Rs. 199</span>
-                        <span class="original-price">Rs. 219</span>
-                        <span class="offer">10% off</span>
-                    </div>
-                    <button class="btn bd-blue rounded">Add to Cart</button>
-                    <button class="btn rounded" disabled>Go to Cart</button>
-                </div>
-            </article>
+            <!-- Page Content -->
+            <main class="container">
+                <h2>Card</h2>
+            </main>
         </div>
+
+        <!-- Page Footer -->
+        <footer class="footer flex-container flex-column">
+            <p>Made with <i class="fas fa-coffee icon"></i> by Om Kakatkar</p>
+            <ul class="nav-link-container">
+                <li class="nav-link">
+                    <a href="https://twitter.com/omkakatkar"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://www.linkedin.com/in/omkakatkar/"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                </li>
+                <li class="nav-link">
+                    <a href="https://github.com/OmKakatkar"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                </li>
+            </ul>
+            <p class="text-xsm">Copyright 2022 &copy; Ani-Design</p>
+        </footer>
     </body>
 </html>

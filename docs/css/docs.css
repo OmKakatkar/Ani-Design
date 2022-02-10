@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-gray);
+    min-height: 5rem;
+    color: var(--white);
+    padding: 2rem;
+    margin-top: auto;
+}
+
+.footer .icon {
+    display: inline-block;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+}
+
+.footer .nav-link-container {
+    display: flex;
+    font-size: var(--fs-h3);
+}
+
+.footer .nav-link {
+    margin: 1.5rem 1rem;
+}
+
+.footer .nav-link a {
+    color: var(--gray);
+}
