@@ -86,6 +86,10 @@
     color: var(--primary-purple);
 }
 
+.border {
+    border: 2px solid var(--black);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 5px;
