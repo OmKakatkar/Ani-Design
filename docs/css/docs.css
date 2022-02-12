@@ -3,10 +3,6 @@ body {
     flex-direction: column;
 }
 
-main.container {
-    width: calc(100vw - 25rem);
-}
-
 /* Navigation */
 .nav {
     padding: 0 1rem;
@@ -156,6 +152,11 @@ main.container {
 @media screen and (max-width: 450px) {
     .doc-sidenav {
         display: none;
+    }
+
+    .code-demo {
+        max-width: 90vw;
+        overflow: scroll;
     }
 
     .code-snippet {
