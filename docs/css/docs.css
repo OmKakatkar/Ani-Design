@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+main.container {
+    width: calc(100vw - 25rem);
+}
+
 /* Navigation */
 .nav {
     padding: 0 1rem;

@@ -21,7 +21,6 @@
         />
     </head>
     <body>
-
         <!-- Page Header -->
         <header>
             <nav class="nav">
@@ -73,7 +72,9 @@
                     <li class="nav-link"><a href="./card.html">Card</a></li>
                     <li class="nav-link"><a href="./grid.html">Grid</a></li>
                     <li class="nav-link"><a href="./image.html">Image</a></li>
-                    <li class="nav-link active"><a href="./input.html">Input</a></li>
+                    <li class="nav-link active">
+                        <a href="./input.html">Input</a>
+                    </li>
                     <li class="nav-link">
                         <a href="./navigation.html">Navigation</a>
                     </li>
@@ -83,7 +84,203 @@
 
             <!-- Page Content -->
             <main class="container">
-                <h2>Input</h2>
+                <!-- Component Heading and Description -->
+                <h1 class="code-heading text-huge">Input</h1>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Inputs are often required to get data from user. They
+                        can be text field, password, checkbox, rating.
+                        Ani-Design provides an
+                        <span class="code-hilight">.input-container</span>
+                        class along with type classes as per the input. (e.g.
+                        <span class="code-hilight">.checkbox</span>
+                        )
+                    </p>
+                </div>
+
+                <!-- Text Inputs -->
+                <h2 class="code-heading text-lg">Text Inputs</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Text inputs can be emails, passwords or a simple text
+                        field for a username. Use the
+                        <span class="code-hilight">data-error</span> and
+                        <span class="code-hilight">data-success</span>
+                        attributes with
+                        <span class="code-hilight">.input</span> class for
+                        inputs
+                    </p>
+                </div>
+                <div class="code-demo flex-container flex-column">
+                    <!-- Input Email -->
+                    <div class="input-container" data-error="Invalid email">
+                        <label for="email"> Email </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="email@xyz.com"
+                            class="input error"
+                        />
+                    </div>
+
+                    <!-- Input Password -->
+                    <div class="input-container">
+                        <label for="password"> Password </label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            class="input"
+                        />
+                    </div>
+
+                    <!-- Input Text -->
+                    <div
+                        class="input-container"
+                        data-success="Username Available"
+                        data-error="Invalid email"
+                    >
+                        <label for="username"> Username </label>
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            class="input success"
+                            placeholder="sparky-spinner"
+                        />
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2F7b942a7318df18fb62a44270fae1426966a2ab0f%2Fcode-snippet.html%23L464-L495&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
+
+                <!-- Checkbox -->
+                <h2 class="code-heading text-lg">Checkbox</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Checkbox are needed for enabling optional setting or
+                        inside forms to provide the user with a variety of
+                        options to pick. Use the
+                        <span class="code-hilight">.checkbox</span> class to get
+                        started. Various states of the checkbox are listed
+                        below.
+                    </p>
+                </div>
+                <div class="code-demo flex-container flex-column">
+                    <div class="input-container">
+                        <label for="chk-button1" class="checkbox">
+                            <input
+                                type="checkbox"
+                                name="checked"
+                                id="chk-button1"
+                                class="checkbox-input"
+                                checked
+                            />
+                            <div class="checkbox-icon"></div>
+                            Checked
+                        </label>
+                        <label for="chk-button2" class="checkbox">
+                            <input
+                                type="checkbox"
+                                name="checked"
+                                id="chk-button2"
+                                class="checkbox-input"
+                            />
+                            <div class="checkbox-icon"></div>
+                            Unchecked
+                        </label>
+                        <label for="chk-button3" class="checkbox disabled">
+                            <input
+                                type="checkbox"
+                                name="checked"
+                                id="chk-button3"
+                                class="checkbox-input"
+                                disabled
+                            />
+                            <div class="checkbox-icon"></div>
+                            Disabled
+                        </label>
+                        <label for="chk-button4" class="checkbox disabled">
+                            <input
+                                type="checkbox"
+                                name="checked"
+                                id="chk-button4"
+                                class="checkbox-input"
+                                checked
+                                disabled
+                            />
+                            <div class="checkbox-icon"></div>
+                            Checked & Disabled
+                        </label>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fee64e4c44a6afbe88892cd3db3a44ed689f3de79%2Fcode-snippet.html%23L498-L543&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
+
+                <!-- Radio Button -->
+                <h2 class="code-heading text-lg">Radio Button</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Radio buttons are used to make a single choice between
+                        multiple options. Use the
+                        <span class="code-hilight">.radio</span> class to get
+                        started. Various states of the radio button are listed
+                        below.
+                    </p>
+                </div>
+                <div class="code-demo flex-container flex-column">
+                    <div class="input-container">
+                        <label for="rd-button1" class="radio">
+                            <input
+                                type="radio"
+                                name="selected"
+                                id="rd-button1"
+                                class="radio-input"
+                                checked
+                            />
+                            <div class="radio-icon"></div>
+                            Selected
+                        </label>
+                        <label for="rd-button2" class="radio">
+                            <input
+                                type="radio"
+                                name="unselected"
+                                id="rd-button2"
+                                class="radio-input"
+                            />
+                            <div class="radio-icon"></div>
+                            Unselected
+                        </label>
+                        <label for="rd-button3" class="radio disabled">
+                            <input
+                                type="radio"
+                                name="disabled"
+                                id="rd-button3"
+                                class="radio-input"
+                                disabled
+                            />
+                            <div class="radio-icon"></div>
+                            Disabled
+                        </label>
+                        <label for="rd-button4" class="radio disabled">
+                            <input
+                                type="radio"
+                                name="selected-disabled"
+                                id="rd-button4"
+                                class="radio-input"
+                                checked
+                                disabled
+                            />
+                            <div class="radio-icon"></div>
+                            Checked & Disabled
+                        </label>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2F7b942a7318df18fb62a44270fae1426966a2ab0f%2Fcode-snippet.html%23L546-L591&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
             </main>
         </div>
 
