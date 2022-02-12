@@ -62,11 +62,12 @@ body {
 
 /* Documentation Pages */
 .code-heading {
-    margin-left: 2rem;
+    margin: 2rem;
 }
 
 .code-desc {
     margin: 2rem;
+    max-width: 80ch;
 }
 
 .code-hilight {
@@ -75,19 +76,19 @@ body {
 }
 
 .code-demo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 1.5rem 0 3rem;
     border: 2px solid var(--gray);
     border-radius: 10px;
-    margin: 2rem;
+    margin: 2rem auto;
+    max-width: calc(80vw - 25rem);
 }
 
 .code-snippet {
+    border: 2px solid var(--gray);
+    border-radius: 10px;
     overflow-x: scroll;
     padding: 0;
-    max-width: calc(100vw - 25rem);
+    max-width: calc(80vw - 25rem);
     width: 80vw;
     margin: 0 auto;
 }

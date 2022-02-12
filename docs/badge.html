@@ -21,7 +21,6 @@
         />
     </head>
     <body>
-
         <!-- Page Header -->
         <header>
             <nav class="nav">
@@ -68,7 +67,9 @@
                 <ul>
                     <li class="nav-link"><a href="./alert.html">Alert</a></li>
                     <li class="nav-link"><a href="./avatar.html">Avatar</a></li>
-                    <li class="nav-link active"><a href="./badge.html">Badge</a></li>
+                    <li class="nav-link active">
+                        <a href="./badge.html">Badge</a>
+                    </li>
                     <li class="nav-link"><a href="./button.html">Button</a></li>
                     <li class="nav-link"><a href="./card.html">Card</a></li>
                     <li class="nav-link"><a href="./grid.html">Grid</a></li>
@@ -83,7 +84,119 @@
 
             <!-- Page Content -->
             <main class="container">
-                <h2>Badge</h2>
+                <!-- Component Heading and Description -->
+                <h1 class="code-heading text-huge">Badge</h1>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Badges are small status descriptors typically circular
+                        in shape. They can be used on UI elements like avatar,
+                        icons and text. Use the
+                        <span class="code-hilight">.badge</span>
+                        class to create a badge.
+                    </p>
+                </div>
+
+                <!-- Avatar w/ Badge -->
+                <h2 class="code-heading text-lg">Badge on Avatar</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Avatar badges are used to indicate user status like
+                        online, offline or away.
+                    </p>
+                </div>
+                <div class="code-demo flex-container">
+                    <div class="avatar online lg">
+                        <img src="../assets/image.jpg" alt="" />
+                    </div>
+                    <div class="avatar offline lg">
+                        <img src="../assets/image.jpg" alt="" />
+                    </div>
+                    <div class="avatar away lg">
+                        <img src="../assets/image.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fdocs_code-snippet%2Fcode-snippet.html%23L94-L104&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
+
+                <!-- Icon w/ Badge -->
+                <h2 class="code-heading text-lg">Badge on Icon</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        To add a badge on an icon, wrap the icon with
+                        <span class="code-hilight">.icon-badge</span>
+                        and then add a sibling element with
+                        <span class="code-hilight">.badge</span> class. You can
+                        add different colors to the badges with a color class
+                        like <span class="code-hilight">.green</span>.
+                    </p>
+                    <p class="text-md">
+                        <b>
+                            Note: To maintain the circular shape, badges on
+                            icons must contain a maximum of 3 characters.
+                        </b>
+                    </p>
+                </div>
+                <div class="code-demo flex-container">
+                    <div class="icon-badge">
+                        <i class="far fa-envelope"></i>
+                        <span class="badge">99+</span>
+                    </div>
+
+                    <div class="icon-badge">
+                        <i class="far fa-heart"></i>
+                        <span class="badge green">10</span>
+                    </div>
+
+                    <div class="icon-badge">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge blue">3</span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fdocs_code-snippet%2Fcode-snippet.html%23L107-L120&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
+
+                <!-- Badge w/ Text -->
+                <h2 class="code-heading text-lg">Badge on Text</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        You can also add badge on text, With the same classes
+                        used in icon with badges.
+                    </p>
+                </div>
+                <div class="code-demo flex-container">
+                    <div class="icon-badge">
+                        <p class="text-xlg">Text with a badge</p>
+                        <span class="badge">2</span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fbb353318f247ef1db5c3628f388e43380f63e126%2Fcode-snippet.html%23L134-L137&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
+
+                <!-- Badge Sizes -->
+                <h2 class="code-heading text-lg">Badge Size</h2>
+                <div class="code-desc">
+                    <p class="text-md">
+                        Alter the size of a badge with
+                        <span class="code-hilight">.lg</span> class.
+                    </p>
+                </div>
+                <div class="code-demo flex-container">
+                    <div class="icon-badge">
+                        <i class="far fa-heart"></i>
+                        <span class="badge green">10</span>
+                    </div>
+
+                    <div class="icon-badge">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge blue lg">3</span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fdocs_code-snippet%2Fcode-snippet.html%23L123-L131&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+                </div>
             </main>
         </div>
 
