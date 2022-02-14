@@ -93,20 +93,29 @@
     font-weight: bold;
 }
 
+.icon-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 .card .badge {
     position: absolute;
     background-color: var(--yellow);
     padding: 0.5rem 1rem;
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     color: var(--white);
-    width: 10rem;
+    min-width: 12rem;
     top: -2px;
     left: -2px;
 }
 
 .icon.wishlist {
-    position: absolute;
-    right: 10px;
-    top: 10px;
     color: var(--gray);
+}
+
+.card-horizontal {
+    min-width: 40rem;
+    width: 48rem;
+    min-height: 20rem;
 }

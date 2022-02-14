@@ -6,6 +6,8 @@ body {
 /* Navigation */
 .nav {
     padding: 0 1rem;
+    min-height: 8rem;
+    box-shadow: var(--gray-shadow);
 }
 
 .nav .image {
@@ -17,6 +19,10 @@ body {
 }
 
 /* Landing Page */
+
+.landing-nav {
+    box-shadow: none;
+}
 
 .landing-heading {
     margin-top: 5rem;
@@ -30,6 +36,10 @@ body {
 .landing-link-wrapper {
     margin-top: 3rem;
     font-weight: var(--fw-bold);
+}
+
+.doc-alert {
+    margin: 1rem;
 }
 
 /* Footer */
@@ -100,7 +110,7 @@ body {
     text-decoration: underline;
 }
 
-.link-container a:hover{
+.link-container a:hover {
     color: var(--primary-blue);
 }
 
@@ -117,10 +127,6 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-    .landing-nav.nav {
-        box-shadow: none;
-    }
-
     .nav .brand-name {
         font-size: var(--fs-h4);
         margin: 0;

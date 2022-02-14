@@ -4,8 +4,11 @@
     align-items: center;
     justify-content: space-between;
     min-width: 100%;
+    min-height: 5rem;
+}
+
+.nav.shadow {
     box-shadow: var(--gray-shadow);
-    min-height: 10rem;
 }
 
 .nav a {
@@ -49,12 +52,12 @@
     padding: 2rem 0;
     max-height: 100vh;
     border-right: 1px solid var(--dark-gray);
-    overflow-y: scroll;
+    overflow-y: auto;
     flex-shrink: 0;
 }
 
 .aside-nav .nav-heading,
-.aside-nav .nav-link {
+.aside-nav .nav-link a {
     padding: 1rem 2rem;
 }
 
@@ -67,6 +70,7 @@
 }
 
 .nav-link a {
+    display: block;
     color: var(--black);
     font-weight: var(--fw-semibold);
 }
@@ -75,6 +79,6 @@
     background-color: var(--gray);
 }
 
-.active a{
+.active a {
     font-weight: var(--fw-bold);
 }
