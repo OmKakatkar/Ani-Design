@@ -1,6 +1,6 @@
 
 # [Ani-Design](https://ani-design.netlify.app/)
-A Developer friendly, minimalistic and responsive component library.
+A Developer friendly, minimalistic and responsive component library.  
 Currently in development 
 
 ## Documentation
@@ -17,6 +17,9 @@ Full documentation is available at [ani-design.netlify.app](https://ani-design.n
 
 ## Demo
 ![ani-demo](https://user-images.githubusercontent.com/68369994/154851273-8b9d91a6-2e92-4ca5-8e80-99a49d55a1ab.gif)
+![image](https://user-images.githubusercontent.com/68369994/154853987-dd470696-5c55-4c0e-8b04-d157efe278a9.png)
+![image](https://user-images.githubusercontent.com/68369994/154853999-aa9856da-57ef-4d58-bcdf-864f9c77e47f.png)
+
 
 ## Tech Stack
 - The components are made with Pure CSS.
