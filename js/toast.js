@@ -1,7 +1,5 @@
 const showToastBottomLeft = document.querySelector('#show-toast-bottom-left');
-const showToastBottomCenter = document.querySelector(
-	'#show-toast-bottom-center'
-);
+const showToastBottomCenter = document.querySelector('#show-toast-bottom-center');
 const showToastBottomRight = document.querySelector('#show-toast-bottom-right');
 const showToastTopLeft = document.querySelector('#show-toast-top-left');
 const showToastTopCenter = document.querySelector('#show-toast-top-center');
@@ -15,21 +13,11 @@ const ToastTopCenter = document.querySelector('#toast-top-center');
 const ToastTopRight = document.querySelector('#toast-top-right');
 
 showToastBottomLeft.addEventListener('click', () => showToast(ToastBottomLeft));
-showToastBottomCenter.addEventListener('click', () =>
-	showToast(ToastBottomCenter)
-);
-
-showToastBottomRight.addEventListener('click', () =>
-	showToast(ToastBottomRight)
-);
-
+showToastBottomCenter.addEventListener('click', () => showToast(ToastBottomCenter));
+showToastBottomRight.addEventListener('click', () => showToast(ToastBottomRight));
 showToastTopLeft.addEventListener('click', () => showToast(ToastTopLeft));
-
 showToastTopCenter.addEventListener('click', () => showToast(ToastTopCenter));
-
-showToastTopRight.addEventListener('click', () => {
-	showToast(ToastTopRight);
-});
+showToastTopRight.addEventListener('click', () => showToast(ToastTopRight));
 
 const showToast = toastId => {
 	toastId.classList.toggle('hidden');
