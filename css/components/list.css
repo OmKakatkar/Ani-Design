@@ -1,0 +1,29 @@
+.list-type-none {
+	list-style-type: none;
+}
+
+.ulist-type-circle {
+	list-style-type: circle;
+}
+
+.ulist-type-square {
+	list-style-type: square;
+}
+
+.ulist-type-disc {
+	list-style-type: disc;
+}
+
+.list-position-inside {
+	list-style-position: inside;
+}
+
+.list-position-outside {
+	list-style-position: outside;
+}
+
+.list-hoverable li:hover {
+	background-color: var(--gray);
+	color: var(--black);
+	cursor: pointer;
+}
