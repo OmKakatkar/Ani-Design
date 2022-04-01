@@ -1,0 +1,32 @@
+.toast {
+	position: fixed;
+	z-index: 15;
+}
+
+.toast-t,
+.toast-tl,
+.toast-tr {
+	top: 2%;
+}
+
+.toast-b,
+.toast-bl,
+.toast-br {
+	bottom: 2%;
+}
+
+.toast-bl,
+.toast-tl {
+	left: 2%;
+}
+
+.toast-b,
+.toast-t {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.toast-br,
+.toast-tr {
+	right: 2%;
+}

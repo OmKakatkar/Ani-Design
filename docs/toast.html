@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ani-Design</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			sizes="32x32"
+			href="../assets/logo.ico"
+		/>
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="./css/docs.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script defer src="../js/toast.js"></script>
+	</head>
+	<body>
+		<!-- Page Header Starts-->
+		<header>
+			<nav class="nav">
+				<div class="brand">
+					<div class="image sm">
+						<img src="../assets/logo.svg" alt="Ani Design Logo" />
+					</div>
+					<a href="../index.html" class="brand-name">Ani Design</a>
+				</div>
+				<ul class="nav-link-container">
+					<li class="nav-link">
+						<a href="https://twitter.com/omkakatkar" target="_blank"
+							><i class="fab fa-twitter"></i
+						></a>
+					</li>
+					<li class="nav-link">
+						<a href="https://www.linkedin.com/in/omkakatkar/" target="_blank"
+							><i class="fab fa-linkedin"></i
+						></a>
+					</li>
+					<li class="nav-link">
+						<a href="https://github.com/OmKakatkar" target="_blank"
+							><i class="fab fa-github"></i
+						></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Page Header Ends -->
+
+		<div class="flex">
+			<!-- Site Navigation -->
+			<nav class="aside-nav doc-sidenav">
+				<h3 class="nav-heading">Getting Started</h3>
+				<ul>
+					<li class="nav-link">
+						<a href="./installation.html">Installation</a>
+					</li>
+					<li class="nav-link">
+						<a href="./typography.html">Typography</a>
+					</li>
+				</ul>
+				<h3 class="nav-heading">Components</h3>
+				<ul>
+					<li class="nav-link">
+						<a href="./alert.html">Alert</a>
+					</li>
+					<li class="nav-link"><a href="./avatar.html">Avatar</a></li>
+					<li class="nav-link"><a href="./badge.html">Badge</a></li>
+					<li class="nav-link"><a href="./button.html">Button</a></li>
+					<li class="nav-link"><a href="./card.html">Card</a></li>
+					<li class="nav-link"><a href="./grid.html">Grid</a></li>
+					<li class="nav-link"><a href="./image.html">Image</a></li>
+					<li class="nav-link"><a href="./input.html">Input</a></li>
+					<li class="nav-link">
+						<a href="./navigation.html">Navigation</a>
+					</li>
+					<li class="nav-link"><a href="./rating.html">Rating</a></li>
+					<li class="nav-link active"><a href="./toast.html">Toast</a></li>
+				</ul>
+			</nav>
+			<!-- Page Navigation Ends -->
+
+			<!-- Page Content Starts-->
+			<main class="container">
+				<!-- Component Heading and Description -->
+				<h1 class="code-heading text-huge">Toast</h1>
+				<div class="code-desc">
+					<p class="text-md">
+						The toast component is like an alert box that is only shown for a
+						couple of seconds when something happens (i.e. when the user clicks
+						on a button, submits a form, etc.). Use classes like
+						<span class="code-hilight">.toast-bl .toast-b</span> to show toasts.
+						The toast component uses alerts internally.
+					</p>
+				</div>
+
+				<!-- Component Demo and Snippets -->
+				<div class="code-demo flex flex-container flex-column">
+					<div class="flex">
+						<button class="btn bg-blue" id="show-toast-bottom-left">
+							Show Toast Bottom Left
+						</button>
+						<button class="btn bg-blue" id="show-toast-bottom-center">
+							Show Toast Bottom Center
+						</button>
+						<button class="btn bg-blue" id="show-toast-bottom-right">
+							Show Toast Bottom Right
+						</button>
+					</div>
+					<div class="flex">
+						<button class="btn bg-blue" id="show-toast-top-left">
+							Show Toast Top Left
+						</button>
+						<button class="btn bg-blue" id="show-toast-top-center">
+							Show Toast Top Center
+						</button>
+						<button class="btn bg-blue" id="show-toast-top-right">
+							Show Toast Top Right
+						</button>
+					</div>
+					<div class="toast toast-bl hidden" id="toast-bottom-left">
+						<div class="alert warning">
+							<span>Bottom Left Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+					<div class="toast toast-b hidden" id="toast-bottom-center">
+						<div class="alert dark">
+							<span>Bottom Center Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+					<div class="toast toast-br hidden" id="toast-bottom-right">
+						<div class="alert info">
+							<span>Bottom Right Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+					<div class="toast toast-tl hidden" id="toast-top-left">
+						<div class="alert dark">
+							<span>Top Left Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+					<div class="toast toast-t hidden" id="toast-top-center">
+						<div class="alert error">
+							<span>Top Center Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+					<div class="toast toast-tr hidden" id="toast-top-right">
+						<div class="alert success">
+							<span>Top Right Toast</span>
+							<button class="close">
+								<i class="fas fa-times icon"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<h2 class="code-heading text-lg">HTML</h2>
+				<div class="code-snippet">
+					<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2F2c443954f8a1a9a6bc930abb36970312ce4c6aa0%2Fcode-snippet.html%23L739-L786&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+				</div>
+				<h2 class="code-heading text-lg">JavaScript</h2>
+				<div class="code-snippet">
+					<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FOmKakatkar%2FAni-Design%2Fblob%2Fb1f99b6c3d999fa7210659442de4b15abf83bef0%2Fjs%2Ftoast.js%23L1-L27&style=vs&showCopy=on&fetchFromJsDelivr=on"></script>
+				</div>
+				<div class="link-container">
+					<a href="./rating.html" class="text-lg text-black font-bold"
+						>&lt; Rating</a
+					>
+				</div>
+			</main>
+		</div>
+		<!-- Page Content Ends -->
+		<!-- Page Footer Starts-->
+		<footer class="footer flex-container flex-column">
+			<p>Made with <i class="fas fa-coffee icon"></i> by Om Kakatkar</p>
+			<ul class="nav-link-container">
+				<li class="nav-link">
+					<a href="https://twitter.com/omkakatkar" target="_blank"
+						><i class="fab fa-twitter"></i
+					></a>
+				</li>
+				<li class="nav-link">
+					<a href="https://www.linkedin.com/in/omkakatkar/" target="_blank"
+						><i class="fab fa-linkedin"></i
+					></a>
+				</li>
+				<li class="nav-link">
+					<a href="https://github.com/OmKakatkar" target="_blank"
+						><i class="fab fa-github"></i
+					></a>
+				</li>
+			</ul>
+			<p class="text-xsm">Copyright 2022 &copy; Ani-Design</p>
+		</footer>
+		<!-- Page Footer Ends -->
+	</body>
+</html>
