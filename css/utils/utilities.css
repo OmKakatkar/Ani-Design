@@ -1,100 +1,307 @@
 /* Containers */
 .container {
-    padding: 1rem;
-    margin: 1rem;
+	padding: 1rem;
+	margin: 1rem;
 }
 
 .flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .flex {
-    display: flex;
+	display: flex;
 }
 
 /* Horizontal line (hr) */
 .line-md {
-    width: 50%;
+	width: 50%;
 }
 
 .line-sm {
-    width: 25%;
+	width: 25%;
 }
 
 /* Center an element */
 .box-center {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Hide Elements */
 .hidden {
-    display: none;
+	display: none;
 }
 
 /* Text Alignment */
 .text-left {
-    text-align: left;
+	text-align: left;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 .text-right {
-    text-align: right;
+	text-align: right;
 }
 
 /* Text Colors */
 .text-white {
-    color: var(--white);
+	color: var(--white);
 }
 
 .text-gray {
-    color: var(--dark-gray);
+	color: var(--dark-gray);
 }
 
 .text-black {
-    color: var(--black);
+	color: var(--black);
 }
 
 .text-red {
-    color: var(--primary-red);
+	color: var(--primary-red);
 }
 
 .text-green {
-    color: var(--primary-green);
+	color: var(--primary-green);
 }
 
 .text-blue {
-    color: var(--primary-blue);
+	color: var(--primary-blue);
 }
 
 .text-yellow {
-    color: var(--yellow);
+	color: var(--yellow);
 }
 
 .text-purple {
-    color: var(--primary-purple);
+	color: var(--primary-purple);
 }
 
 .border {
-    border: 2px solid var(--black);
+	border: 2px solid var(--black);
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 5px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--dark-gray);
+	background: var(--dark-gray);
+}
+
+/* Padding */
+.pad-1r {
+	padding: 1rem;
+}
+.pad-2r {
+	padding: 2rem;
+}
+.pad-3r {
+	padding: 3rem;
+}
+.pad-4r {
+	padding: 4rem;
+}
+.pad-5r {
+	padding: 5rem;
+}
+
+/* Padding Top */
+.pad-top-1r {
+	padding-top: 1rem;
+}
+.pad-top-2r {
+	padding-top: 2rem;
+}
+.pad-top-3r {
+	padding-top: 3rem;
+}
+.pad-top-4r {
+	padding-top: 4rem;
+}
+.pad-top-5r {
+	padding-top: 5rem;
+}
+
+/* Padding Bottom */
+.pad-btm-1r {
+	padding-bottom: 1rem;
+}
+.pad-btm-2r {
+	padding-bottom: 2rem;
+}
+.pad-btm-3r {
+	padding-bottom: 3rem;
+}
+.pad-btm-4r {
+	padding-bottom: 4rem;
+}
+.pad-btm-5r {
+	padding-bottom: 5rem;
+}
+
+/* Padding Right */
+.pad-rt-1r {
+	padding-right: 1rem;
+}
+.pad-rt-2r {
+	padding-right: 2rem;
+}
+.pad-rt-3r {
+	padding-right: 3rem;
+}
+.pad-rt-4r {
+	padding-right: 4rem;
+}
+.pad-rt-5r {
+	padding-right: 5rem;
+}
+
+/* Padding Left */
+.pad-lt-1r {
+	padding-left: 1rem;
+}
+.pad-lt-2r {
+	padding-left: 2rem;
+}
+.pad-lt-3r {
+	padding-left: 3rem;
+}
+.pad-lt-4r {
+	padding-left: 4rem;
+}
+.pad-lt-5r {
+	padding-left: 5rem;
+}
+
+/* Margin */
+.mg-1r {
+	margin: 1rem;
+}
+.mg-2r {
+	margin: 2rem;
+}
+.mg-3r {
+	margin: 3rem;
+}
+.mg-4r {
+	margin: 4rem;
+}
+.mg-5r {
+	margin: 5rem;
+}
+
+/* Margin Top */
+.mg-top-1r {
+	margin-top: 1rem;
+}
+.mg-top-2r {
+	margin-top: 2rem;
+}
+.mg-top-3r {
+	margin-top: 3rem;
+}
+.mg-top-4r {
+	margin-top: 4rem;
+}
+.mg-top-5r {
+	margin-top: 5rem;
+}
+
+/* Margin Bottom */
+.mg-btm-1r {
+	margin-bottom: 1rem;
+}
+.mg-btm-2r {
+	margin-bottom: 2rem;
+}
+.mg-btm-3r {
+	margin-bottom: 3rem;
+}
+.mg-btm-4r {
+	margin-bottom: 4rem;
+}
+.mg-btm-5r {
+	margin-bottom: 5rem;
+}
+
+/* Margin Left */
+.mg-lt-1r {
+	margin-left: 1rem;
+}
+.mg-lt-2r {
+	margin-left: 2rem;
+}
+.mg-lt-3r {
+	margin-left: 3rem;
+}
+.mg-lt-4r {
+	margin-left: 4rem;
+}
+.mg-lt-5r {
+	margin-left: 5rem;
+}
+
+/* Margin Right */
+.mg-rt-1r {
+	margin-right: 1rem;
+}
+.mg-rt-2r {
+	margin-right: 2rem;
+}
+.mg-rt-3r {
+	margin-right: 3rem;
+}
+.mg-rt-4r {
+	margin-right: 4rem;
+}
+.mg-rt-5r {
+	margin-right: 5rem;
+}
+
+/* Display and Postion */
+.grid {
+	display: grid;
+}
+
+.block {
+	display: block;
+}
+
+.block-inline {
+	display: inline-block;
+}
+
+.pos-rel {
+	position: relative;
+}
+
+.pos-abs {
+	position: absolute;
+}
+
+.pos-fix {
+	position: fixed;
+}
+
+.pos-sticky {
+	position: sticky;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.scroll-smooth {
+	scroll-behavior: smooth;
 }
